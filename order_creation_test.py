@@ -1,3 +1,4 @@
+# Evgeniia Liasheva, 12-я когорта, финальный проект. Инженер по тестированию плюс
 import pytest
 import data
 import sender_stand_request
