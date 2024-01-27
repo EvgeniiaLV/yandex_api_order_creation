@@ -1,0 +1,22 @@
+Задание 1
+
+SELECT cr.login AS courier_login,
+       COUNT(ord.track) AS number_of_in_delivery_orders
+FROM "Couriers" AS cr
+LEFT OUTER JOIN "Orders" AS ord ON cr.id = ord."courierId"
+WHERE ord."inDelivery" = TRUE
+       OR ord."inDelivery" IS NULL
+GROUP BY cr.login
+ORDER BY COUNT(ord.track);
+
+
+Задание 2
+
+SELECT track AS order_track,
+       CASE
+           WHEN finished = TRUE THEN 2
+           WHEN cancelled = TRUE THEN -1
+           WHEN "inDelivery" = TRUE THEN 1
+           ELSE 0
+       END AS order_status
+FROM "Orders";
