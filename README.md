@@ -29,5 +29,16 @@
 - После выполнения тестов выполнить команду `allure serve` для генерации отчета
 
 
+# Список баг-репортов:
+- https://ev-liasheva.youtrack.cloud/issue/YS-33/Tip-dannyh-deliveryDate-otlichaetsya-na-bekende-v-tablice-Orders-i-v-API-sozdaniya-zakaza
+- https://ev-liasheva.youtrack.cloud/issue/YS-34/Ogranicheniya-na-vvod-dannyh-sozdaniya-zakaza-otsutstvuyut-v-trebovaniyah-k-bekendu-i-API-v-otlichii-ot-trebovanij-k-frontendu
+- https://ev-liasheva.youtrack.cloud/issue/YS-35/Neobyazatelnoe-pole-Comment-na-frontende-yavlyaetsya-obyazatelnym-dlya-zapolneniya-v-POST-zaprose-api-v1-orders-soglasno
+- https://ev-liasheva.youtrack.cloud/issue/YS-36/500-oshibka-pri-sozdanii-zakaza-s-peredannym-znacheniem-parametra-tipa-string-dlinoj-bolshe-3000-simvolov-cherez-POST-zapros-api
+- https://ev-liasheva.youtrack.cloud/issue/YS-37/Otsutstvuet-validaciya-nesootvetstvuyushego-tipa-dannyh-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders
+- https://ev-liasheva.youtrack.cloud/issue/YS-38/Zakaz-uspeshno-sozdan-pri-pustom-obyazatelnom-dlya-zapolneniya-pole-cherez-POST-zapros-api-v1-orders
+- https://ev-liasheva.youtrack.cloud/issue/YS-39/500-oshibka-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders-s-nulevoj-deliveryDate
+- https://ev-liasheva.youtrack.cloud/issue/YS-40/Zakaz-uspeshno-sozdan-s-otricatelnym-znacheniem-rentTime-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders
+- https://ev-liasheva.youtrack.cloud/issue/YS-41/Zakaz-uspeshno-sozdan-cherez-POST-zapros-api-v1-orders-pri-otsutstvuyushem-parametre-zaprosa
+
 
  
