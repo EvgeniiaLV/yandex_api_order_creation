@@ -19,8 +19,7 @@
 - Прописать путь до папки с Allure в переменные окружения Path
 
 # Запуск тестов (из консоли cmd или терминала PyCharm)
-- Запустить тестовый сервер с приложением (дождаться о
-- кончания запуска и проверить, что приложение открывается)
+- Запустить тестовый сервер с приложением (дождаться окончания запуска и проверить, что приложение открывается)
 - Обновить параметр `URL_SERVICE` в файле `configuration.py` значением URL запущенного тестового стенда
 - Открыть cmd / terminal
 - Перейти в директорию с проектом ~/yandex_api_order_creation
@@ -35,7 +34,7 @@
 - https://ev-liasheva.youtrack.cloud/issue/YS-35/Neobyazatelnoe-pole-Comment-na-frontende-yavlyaetsya-obyazatelnym-dlya-zapolneniya-v-POST-zaprose-api-v1-orders-soglasno
 - https://ev-liasheva.youtrack.cloud/issue/YS-36/500-oshibka-pri-sozdanii-zakaza-s-peredannym-znacheniem-parametra-tipa-string-dlinoj-bolshe-3000-simvolov-cherez-POST-zapros-api
 - https://ev-liasheva.youtrack.cloud/issue/YS-37/Otsutstvuet-validaciya-nesootvetstvuyushego-tipa-dannyh-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders
-- https://ev-liasheva.youtrack.cloud/issue/YS-38/Zakaz-uspeshno-sozdan-pri-pustom-obyazatelnom-dlya-zapolneniya-pole-cherez-POST-zapros-api-v1-orders
+- https://ev-liasheva.youtrack.cloud/issue/YS-38/Zakaz-uspeshno-sozdan-pri-pustom-obyazatelnom-pole-cherez-POST-zapros-api-v1-orders
 - https://ev-liasheva.youtrack.cloud/issue/YS-39/500-oshibka-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders-s-nulevoj-deliveryDate
 - https://ev-liasheva.youtrack.cloud/issue/YS-40/Zakaz-uspeshno-sozdan-s-otricatelnym-znacheniem-rentTime-pri-sozdanii-zakaza-cherez-POST-zapros-api-v1-orders
 - https://ev-liasheva.youtrack.cloud/issue/YS-41/Zakaz-uspeshno-sozdan-cherez-POST-zapros-api-v1-orders-pri-otsutstvuyushem-parametre-zaprosa

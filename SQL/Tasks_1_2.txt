@@ -10,6 +10,16 @@ GROUP BY cr.login
 ORDER BY COUNT(ord.track);
 
 
+Если необходимо исключить дубликаты заказов:
+SELECT cr.login, COUNT(*) as number_of_orders 
+FROM 
+	(SELECT DISTINCT track, "courierId" as id 
+		FROM "Orders" WHERE "inDelivery" = TRUE) as ord 
+LEFT OUTER JOIN "Couriers" as cr 
+	ON cr.id = ord.id 
+GROUP BY cr.login;
+
+
 Задание 2
 
 SELECT track AS order_track,
